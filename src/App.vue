@@ -16,24 +16,29 @@ export default {
   name: "App",
   components: {
     MultiColumnsContainer,
-    MultiColumnsItem,
+    MultiColumnsItem
   },
   data() {
     return {
       picList: [
-        "https://video.yingtu.co/1101008450369884160/155227981995862290.jpg",
+        "https://hbimg.huabanimg.com/37b8855c0471a83ac4a8ce636cfec235eec06ba653282b-fYAqhN_fw658/format/webp",
         "https://video.yingtu.co/1184005967549829120/159505991161879756.jpg",
-        "http://img.alicdn.com/imgextra/i4/4058337907/O1CN01YJhaBq28HSHy3jNBr_!!4058337907-0-lubanu-s.jpg_800x800q90.jpg",
-        "http://img.alicdn.com/imgextra/i4/2208008850922/O1CN01h36s0y1IgJlppOz4d_!!0-item_pic.jpg_800x800q90.jpg",
-        "http://img.alicdn.com/imgextra/i1/4058337907/O1CN01omewVQ28HSHYIkNBG_!!0-item_pic.jpg_800x800q90.jpg",
-        "http://img.alicdn.com/imgextra/i4/2208008850922/O1CN01v55qm21IgJmc38jv6_!!0-item_pic.jpg_800x800q90.jpg",
-        "https://video.yingtu.co/1184005967549829120/1599203678119552860.jpg",
-        "http://img.alicdn.com/imgextra/i4/2208008850922/O1CN01TCCNyA1IgJmSuqrMt_!!2208008850922.jpg_800x800q90.jpg",
-        "http://img.alicdn.com/imgextra/i2/475325704/O1CN01AZ918A1s0Th02XWEm_!!0-item_pic.jpg_800x800q90.jpg",
-        "http://img.alicdn.com/imgextra/i2/2208008850922/O1CN01bcWvC81IgJm5HHJcY_!!0-item_pic.jpg_800x800q90.jpg",
-      ],
+        "https://hbimg.huabanimg.com/5a7bca3060861b58a2f10c54dbb250cf0fdb185d3e94-0Xxpkk_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/36ca02a7036816bda916e8c990756cfcf4f84ab11f52cd-AHqQM7_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/fcd1b3c0949180f459a769e2b7b04fa41787d7b7184e3-4X1aRk_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/a0e13b02b4220fa452fe5a655b1bede2effa72c37b07-AOB1Pl_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/9795a671fe8959d4b5e94b1790feb324befae2d45742f-5C5j59_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/842e8420e74de4a0f4e061acb6454fea94ec472124207d-c2SVSn_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/b7904dc8963e2e9870b003998c6f8ef2379a45cf5db50-4z7esL_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/eb4973dcaaae2795ffc696c4c33406a04f83e8452bd95-eK6lJY_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/37b8855c0471a83ac4a8ce636cfec235eec06ba653282b-fYAqhN_fw658/format/webp",
+        "https://video.yingtu.co/1184005967549829120/159505991161879756.jpg",
+        "https://hbimg.huabanimg.com/5a7bca3060861b58a2f10c54dbb250cf0fdb185d3e94-0Xxpkk_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/36ca02a7036816bda916e8c990756cfcf4f84ab11f52cd-AHqQM7_/fw/480/format/webp",
+        "https://hbimg.huabanimg.com/fcd1b3c0949180f459a769e2b7b04fa41787d7b7184e3-4X1aRk_/fw/480/format/webp"
+      ]
     };
-  },
+  }
 };
 </script>
 

@@ -12,18 +12,17 @@ export default {
   props: {
     pic: {
       type: String,
-      default: "",
-    },
+      default: ""
+    }
   },
   data() {
     return {};
-  },
+  }
 };
 </script>
 
 <style scoped>
 img {
-  width: 200px;
-  /* height: 400px; */
+  width: 100%;
 }
 </style>
