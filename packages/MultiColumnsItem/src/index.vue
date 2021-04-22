@@ -17,13 +17,5 @@ export default {
 </script>
 
 <style scoped>
-
-img {
-  width: 100%;
-}
-
-p {
-  word-break: break-word;
-  text-align: start;
-}
+@import "./index.css";
 </style>
