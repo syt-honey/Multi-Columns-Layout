@@ -17,5 +17,9 @@ module.exports = {
             .end()
             .use('babel')
             .loader('babel-loader')
+    },
+    // css 相关配置
+    css: {
+        extract: false
     }
 };
