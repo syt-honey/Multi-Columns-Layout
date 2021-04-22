@@ -1,11 +1,16 @@
 {
   "name": "multi-columns-layout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "lib/multi-columns-layout.umd.min.js",
   "author": "syt-honey <honeysyt@foxmail.com>",
   "description": "A Multi-column layout solution based on Vue 2.x",
-  "keywords": ["vue", "multi-column layout", "grid", "component"],
+  "keywords": [
+    "vue",
+    "multi-column layout",
+    "grid",
+    "component"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/syt-honey/Multi-Columns-Layout.git",
   "repository": {
