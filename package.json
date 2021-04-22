@@ -1,6 +1,6 @@
 {
   "name": "multi-columns-layout",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "main": "lib/multi-columns-layout.umd.min.js",
   "author": "syt-honey <honeysyt@foxmail.com>",
