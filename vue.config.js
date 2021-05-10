@@ -8,7 +8,7 @@ module.exports = {
             filename: 'index.html'
         }
     },
-    // 扩展 webpack 配置，使 packages 加入编译
+    // Extend the webpack configuration to add packages to the compilation
     chainWebpack: config => {
         config.module
             .rule('js')
@@ -18,7 +18,7 @@ module.exports = {
             .use('babel')
             .loader('babel-loader')
     },
-    // css 相关配置
+    // css related configuration
     css: {
         extract: false
     }

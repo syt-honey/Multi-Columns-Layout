@@ -36,7 +36,7 @@ export default {
   },
 
   mounted() {
-    // 获取 container 中的 gap、auto-rows
+    // get gap、auto-rows of container 
     const grid = document.getElementsByClassName("multi-column-container")[0];
     this.rowGapInner = parseInt(
       window.getComputedStyle(grid).getPropertyValue("grid-row-gap")
@@ -45,8 +45,8 @@ export default {
       window.getComputedStyle(grid).getPropertyValue("grid-auto-rows")
     );
 
-    // 查看是否有 img，如果有的话需要等待其加载完才计算高度
-    // TODO 支持更多媒体资源
+    // Check if there is an img, if so, need to wait for it to load before calculating the height
+    // TODO: to support more  multimedia
     const allImg = document.querySelectorAll("img");
 
     if (allImg.length) {
@@ -67,7 +67,7 @@ export default {
 
   methods: {
     positionInit() {
-      // TODO 可以优化，如果不是第一次的话，不需要将所有的 items 的位置都重新计算一遍
+      // TODO: It can be optimized, if it is not the first time, there is no need to recalculate the positions of all items
       const allItems = document.getElementsByClassName("grid-item");
       Array.from(allItems).map((item) => {
         this.setPosition(item);

@@ -16,18 +16,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#Editordirectoriesandfiles
+# Editordirectoriesandfiles
 .idea
 .vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-#忽略目录
+# ignore dir
 examples/
 packages/
 public/
-#忽略指定文件
+# ignore specified file
 vue.config.js
 babel.config.js
 *.map
