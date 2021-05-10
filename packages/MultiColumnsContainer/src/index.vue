@@ -25,7 +25,7 @@ export default {
     },
     rowHeight: {
       type: String,
-      default: "20px"
+      default: "10px"
     }
   },
   data() {
@@ -36,7 +36,7 @@ export default {
   },
 
   mounted() {
-    // get gap、auto-rows of container 
+    // get gap、auto-rows of container
     const grid = document.getElementsByClassName("multi-column-container")[0];
     this.rowGapInner = parseInt(
       window.getComputedStyle(grid).getPropertyValue("grid-row-gap")
@@ -58,6 +58,8 @@ export default {
           item.removeEventListener("load", () => {});
         });
       });
+    } else {
+      this.positionInit();
     }
 
     window.onresize = () => {
